@@ -1,0 +1,1 @@
+This repository demonstrates a common error when using Firebase's onAuthStateChanged method: forgetting to unsubscribe.  Leaving the listener active can result in memory leaks, particularly in applications with many listeners or long lifecycles. The solution showcases how to properly unsubscribe to avoid these issues.
